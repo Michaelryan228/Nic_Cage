@@ -1,19 +1,19 @@
-function enterName() {
-    let title = prompt('Nic or Cage?');
+function enterEmo() {
+    let title = prompt('How is Nic?  Good or Bad?');
     console.log(title);
 
-    if (title == 'Nic') {
-        document.write('Welcome Nic, ');
-    } else if (title == 'Cage') {
-        document.write('Welcome Cage, ');
-    } else if (title == 'nic') {
-        document.write('Welcome Nic, ');
-    } else if (title == 'cage') {
-        document.write('Welcome Cage, ');
+    if (title == 'Good') {
+        document.write('You chose Good, ');
+    } else if (title == 'good') {
+        document.write('You chose Good, ');
+    } else if (title == 'Bad') {
+        document.write('You chose Bad, ');
+    } else if (title == 'bad') {
+        document.write('You chose Bad, ');
     } else {
         document.write('Welcome Nicolas Kim Coppola, ');
     }
 
 }
 
-enterName();
+enterEmo();
